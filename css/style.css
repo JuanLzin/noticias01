@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+body {
+    background-color: rgb(209, 189, 255);
+}
+
+.nav-bar {
+    display: flex;
+    padding: 44px;
+    height: 40px;
+    background-color: rgb(179, 147, 255);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-bar h1 {
+    color: #fff;
+    font-size: 2.2em;
+}
+
+.nav-bar input {
+    font-size: 1em;
+    border: none;
+    padding: 14px;
+    width: 20%;
+    outline: none;
+    border-radius: 6px;
+}
+
+.nav-bar .botoes {
+    margin: 10px;
+}
+
+.botoes button {
+    padding: 14px;
+    width: 130px;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    margin: 6px;
+}
+
+.botoes .botao-login {
+    background-color: rgb(145, 97, 255);
+    color: #fff;
+    font-size: 1em;
+    font-weight: 570;
+}
+
+.botao-login:hover {
+    color: rgb(145, 97, 255);
+    background-color: #fff;
+    border: 2px solid rgb(145, 97, 255);
+    cursor: pointer;
+    box-shadow: 4px 3px rgb(145, 97, 255, 0.3);
+}
+
+.botoes .botao-register {
+    background-color: #fff;
+    color: rgb(145, 97, 255);
+    font-size: 1em;
+    font-weight: 570;
+}
+
+.botao-register:hover {
+    color: #fff;
+    background-color: rgb(145, 97, 255);
+    border: 2px solid rgb(145, 97, 255);
+    cursor: pointer;
+    box-shadow: 4px 3px rgb(145, 97, 255, 0.3);
+}
+
+.articles {
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.noticia1 {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.noticia1 article {
+    width: 32%;
+    margin-bottom: 20px;
+}
+
+.noticia1 article h3 {
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.noticia1 article img {
+    width: 100%;
+    height: auto;
+}
+
+.articles article {
+    width: 32%;
+    margin-bottom: 20px;
+}
+
+.articles article img {
+    width: 100%;
+    height: auto;
+}
+
+.noticia2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.noticia2 article {
+    width: 32%;
+    margin-bottom: 20px;
+}
+
+.noticia2 article h3 {
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.noticia2 article img {
+    width: 100%;
+    height: auto;
+}
