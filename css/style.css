@@ -10,6 +10,74 @@
 body {
     background-color: rgb(209, 189, 255);
 }
+@media screen and (max-width: 768px) {
+    .nav-bar {
+        flex-direction: column;
+        padding: 20px;
+        height: auto;
+    }
+
+    .nav-bar h1 {
+        font-size: 1.8em;
+        margin-bottom: 10px;
+    }
+
+    .nav-bar input {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .botoes {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .botoes button {
+        width: 48%;
+        margin: 6px 0;
+    }
+}
+
+.nav-bar input {
+    font-size: 1em;
+    border: 2px solid transparent;
+    padding: 14px;
+    width: 20%;
+    outline: none;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.nav-bar input:focus {
+    border-color: rgb(87, 59, 220);
+    box-shadow: 0 0 5px rgba(87, 59, 220, 0.5);
+}
+
+.nav-bar input::placeholder {
+    color: rgb(145, 97, 255);
+    font-style: italic;
+}
+
+.botoes button {
+    padding: 14px;
+    width: 130px;
+    border: 2px solid transparent;
+    font-weight: 550;
+    border-radius: 6px;
+    margin: 6px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.botoes button:hover {
+    transform: translateY(-5px); /* Levanta o botão */
+    font-weight: 550;
+    color: white;
+    background-color: rgb(145, 97, 255); /* Colocando cores no botão ao passar o mouse */
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(145, 97, 255, 0.4); /* Adiciona uma sombra mais intensa */
+}
 
 .nav-bar {
     display: flex;
@@ -18,62 +86,18 @@ body {
     background-color: rgb(179, 147, 255);
     align-items: center;
     justify-content: space-between;
+    border-bottom: 2px solid rgba(145, 97, 255, 0.3); /* Adiciona uma linha de separação sutil */
 }
 
 .nav-bar h1 {
     color: #fff;
     font-size: 2.2em;
+    text-shadow: 2px 2px 4px rgba(87, 59, 220, 0.5); /* Sombra de texto para destacar */
 }
 
-.nav-bar input {
-    font-size: 1em;
-    border: none;
-    padding: 14px;
-    width: 20%;
-    outline: none;
-    border-radius: 6px;
-}
-
-.nav-bar .botoes {
-    margin: 10px;
-}
-
-.botoes button {
-    padding: 14px;
-    width: 130px;
-    border: 2px solid transparent;
-    border-radius: 6px;
-    margin: 6px;
-}
-
-.botoes .botao-login {
-    background-color: rgb(145, 97, 255);
-    color: #fff;
-    font-size: 1em;
-    font-weight: 570;
-}
-
-.botao-login:hover {
-    color: rgb(145, 97, 255);
-    background-color: #fff;
-    border: 2px solid rgb(145, 97, 255);
-    cursor: pointer;
-    box-shadow: 4px 3px rgb(145, 97, 255, 0.3);
-}
-
-.botoes .botao-register {
-    background-color: #fff;
-    color: rgb(145, 97, 255);
-    font-size: 1em;
-    font-weight: 570;
-}
-
-.botao-register:hover {
-    color: #fff;
-    background-color: rgb(145, 97, 255);
-    border: 2px solid rgb(145, 97, 255);
-    cursor: pointer;
-    box-shadow: 4px 3px rgb(145, 97, 255, 0.3);
+.botoes button:focus {
+    outline: 3px solid rgb(145, 97, 255);
+    outline-offset: 2px;
 }
 
 .articles {
@@ -120,7 +144,8 @@ body {
     background-color: white;
     padding: 28px;
     border-radius: 6px;
-    box-shadow: 4px 3px rgb(145, 97, 255, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(145, 97, 255, 0.4); /* Adiciona uma sombra mais intensa */
 }
 
 .noticias .noticias4 article {
@@ -134,3 +159,10 @@ body {
     gap: 20px;
     flex-wrap: wrap;
 }
+
+.cardnoticia:hover {
+    transform: translateY(-5px); /* Levanta o botão */
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(145, 97, 255, 0.4); /* Adiciona uma sombra mais intensa */
+}
+
