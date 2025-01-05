@@ -138,3 +138,10 @@ body {
     width: 100%;
     height: auto;
 }
+
+.noticia2 .cardnoticia {
+    background-color: white;
+    padding: 28px;
+    border-radius: 6px;
+    box-shadow: 4px 3px rgb(145, 97, 255, 0.4);
+}
