@@ -116,6 +116,8 @@ body {
 }
 
 .noticia2 {
+    background-color: rgb(188, 160, 253);
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     gap: 20px;
