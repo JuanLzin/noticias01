@@ -162,7 +162,6 @@ body {
 
 .cardnoticia:hover {
     transform: translateY(-5px); /* Levanta o botão */
-    cursor: pointer;
     box-shadow: 0 4px 6px rgba(145, 97, 255, 0.4); /* Adiciona uma sombra mais intensa */
 }
 
@@ -180,4 +179,77 @@ body {
     width: 100%;
     height: 200px;
     object-fit: cover;
+}
+
+.esportessection {
+    background-color: rgb(108, 48, 248);
+    padding: 20px;
+}
+
+.esportessection h1 {
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(203, 195, 241, 0.5); /* Sombra de texto para destacar */
+}
+
+.economiasection {
+    background-color: rgb(63, 30, 245);
+    padding: 20px;
+}
+
+.economiasection h1 {
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(203, 195, 241, 0.5); /* Sombra de texto para destacar */
+}
+
+.e-sportssection {
+    background-color: rgb(0, 47, 255);
+    padding: 20px;
+}
+
+.e-sportssection h1 {
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(203, 195, 241, 0.5); /* Sombra de texto para destacar */
+}
+
+.gamessection {
+    background-color: rgb(0, 140, 255);
+    padding: 20px;
+}
+
+.gamessection h1 {
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(203, 195, 241, 0.5); /* Sombra de texto para destacar */
+}
+
+.cardnoticia button {
+    font-weight: 550;
+    text-transform: uppercase;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    background-color: blueviolet;
+    width: 150px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 2px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cardnoticia button:hover {
+    box-shadow: 0 4px 6px rgba(145, 97, 255, 0.4); /* Adiciona uma sombra mais intensa */
+    transform: translateY(-5px); /* Levanta o botão */
+}
+
+.cardnoticia .tempopost p {
+    color: #4e4e4e;
+    font-size: .8em;
+    font-weight: 400;
 }
